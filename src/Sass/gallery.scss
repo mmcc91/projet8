@@ -1,0 +1,11 @@
+.gallery {
+    display: flex;
+    width: calc(100% / 2);
+    padding: 1rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10%;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}

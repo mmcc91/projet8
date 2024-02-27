@@ -1,0 +1,11 @@
+.gallery {
+  display: flex;
+  width: 50%;
+  padding: 1rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10%;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=gallery.css.map */
