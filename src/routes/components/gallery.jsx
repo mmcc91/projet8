@@ -3,7 +3,7 @@ import Location  from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom
 const Gallery = () => {
     return (
       <div className="gallery">
-        <Thumb locations={locations}/>
+        <Thumb location={location}/>
       </div>
     );
   };

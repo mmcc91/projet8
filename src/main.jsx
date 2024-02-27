@@ -32,12 +32,12 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/Location ",
-    element: <Location />,
+    path: "/Location/:id ",
+    element: <Location.id /> ,
     errorElement: <ErrorPage />,
   
   },
-
+ 
 
 ]);
 
