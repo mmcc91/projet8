@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/routes/components/Header.jsx";
 import Footer from '../routes/components/Footer.jsx';
-import Banner from '../routes/components/banner.jsx';
+import Banner from '../routes/components/Banner.jsx';
 import "../main.scss";
 import Thumb from '../routes/components/Thumb.jsx';
 import DonneesLocations from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/data/donneeslocations.json"

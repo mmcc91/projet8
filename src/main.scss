@@ -1,6 +1,6 @@
-@use "./Sass/root.scss" ;
-@use "./Sass/hearder.scss";
-@use "./Sass/footer.scss";
-@use"./Sass/banner.scss";
-@use "./Sass/gallery.scss";
-@use "./Sass/thumb.scss";
+@use "./routes/root.scss" ;
+@use "./components/header/header.scss";
+@use "./components/footer/footer.scss";
+@use"./components/banner/banner.scss";
+@use "./components/gallery/gallery.scss";
+@use "./components/thumb/thumb.scss";

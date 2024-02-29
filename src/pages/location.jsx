@@ -3,10 +3,10 @@ import Header from "../routes/components/Header.jsx";
 import Footer from "../routes/components/Footer.jsx";
 import Thumb from "../routes/components/Thumb.jsx";
 import Navigation from "../routes/components/Navigation.jsx";
-import location from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/data/donneeslocations.json";
+import location from "../data/data.json";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import Caroussel from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/routes/components/caroussel.jsx";
+import Caroussel from "../routes/components/Caroussel.jsx";
 
 
 const findLocationID = (id) => {

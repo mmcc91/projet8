@@ -1,4 +1,4 @@
-import logoFooter from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/assets/images/LOGOfooter.png"
+import logoFooter from "../assets/images/LOGOfooter.png"
 const Footer = () => {
   return (
     <footer>

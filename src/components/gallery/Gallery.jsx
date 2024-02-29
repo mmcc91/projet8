@@ -1,4 +1,5 @@
-import Location  from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/data/donneeslocations.json";
+
+import Location  from "../../data/data.json";
 
 const Gallery = () => {
     return (

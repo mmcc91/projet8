@@ -1,5 +1,5 @@
-import img from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/assets/images/ImageFalaise.png"
-import "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/Sass/banner.scss"
+import img from "../../assets/images/ImageFalaise.png"
+import "../banner.scss"
 const Banner = () => {
     return (
       <div className="banner">

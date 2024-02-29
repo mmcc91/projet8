@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import arrowLeft from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/assets/images/arrow_back_ios-24px 1.png";
-import arrowRight from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/assets/images/arrow_forward_ios-24px 1.png";
-import locations from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/data/donneeslocations.json";
-import "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/Sass/caroussel.scss";
+import arrowLeft from "../assets/images/arrow_back_ios-24px 1.png";
+import arrowRight from "../assets/images/arrow_forward_ios-24px 1.png";
+import locations from "../../data/data.json";
+import "../components/caroussel/caroussel.scss";
 
 function Caroussel({ id }) {
   const [imageNumber, setImageNumber] = useState(0);
