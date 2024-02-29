@@ -1,4 +1,4 @@
-import logo from "../assets/images/LOGO.png"
+import logo from "../../assets/images/logo.png"
 import Navigation from "../navigation/Navigation.jsx";
 
 const Header = () => {

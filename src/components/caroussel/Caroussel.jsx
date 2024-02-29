@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import arrowLeft from "../assets/images/arrow_back_ios-24px 1.png";
-import arrowRight from "../assets/images/arrow_forward_ios-24px 1.png";
+import arrowLeft from "../../assets/images/arrow_back.png";
+import arrowRight from "../../assets/images/arrow_right.png";
 import locations from "../../data/data.json";
-import "../components/caroussel/caroussel.scss";
+import "./caroussel.scss";
 
 function Caroussel({ id }) {
   const [imageNumber, setImageNumber] = useState(0);

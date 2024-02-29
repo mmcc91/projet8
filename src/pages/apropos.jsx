@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from "../routes/components/Header.jsx";
-import Footer from '../routes/components/Footer.jsx';
+import Header from "../components/header/Header.jsx";
+import Footer from "../components/footer/Footer.jsx";
 
 const AproposComponent = () => {
   return (

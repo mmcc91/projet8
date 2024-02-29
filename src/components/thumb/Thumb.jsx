@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 import {Link} from "react-router-dom"
 
 const Thumb = ({ data }) => {
@@ -10,7 +10,7 @@ const Thumb = ({ data }) => {
     </Link>
   ));
 };
-Thumb.PropTypes = {
-  data: PropTypes.array.isRequired,
+Thumb.propTypes = {
+  data: propTypes.array.isRequired,
 };
 export default Thumb;

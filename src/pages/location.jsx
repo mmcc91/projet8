@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../routes/components/Header.jsx";
-import Footer from "../routes/components/Footer.jsx";
-import Thumb from "../routes/components/Thumb.jsx";
-import Navigation from "../routes/components/Navigation.jsx";
+import Header from "../components/header/Header.jsx";
+import Footer from "../components/footer/Footer.jsx";
+import Thumb from "../components/thumb/Thumb.jsx";
+import Navigation from "../components/navigation/Navigation.jsx";
 import location from "../data/data.json";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import Caroussel from "../routes/components/Caroussel.jsx";
+import Caroussel from "../components/caroussel/Caroussel.jsx";
 
 
 const findLocationID = (id) => {

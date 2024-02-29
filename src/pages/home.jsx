@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/routes/components/Header.jsx";
-import Footer from '../routes/components/Footer.jsx';
-import Banner from '../routes/components/Banner.jsx';
+import Header from "../components/header/Header.jsx";
+import Footer from "../components/footer/Footer.jsx";
+import Banner from '../components/banner/Banner.jsx';
 import "../main.scss";
-import Thumb from '../routes/components/Thumb.jsx';
-import DonneesLocations from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/data/donneeslocations.json"
+import Thumb from '../components/thumb/Thumb.jsx';
+import DonneesLocations from "../data/data.json"
 
 
 
