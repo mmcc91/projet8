@@ -1,25 +1,30 @@
-.thumb{
-    width: 250px;
-    height: 240px;
-    border: solid 2px black;
-    cursor: pointer;
+.thumb {
+    width: 100%;
+    height: 340px;
+    flex-shrink: 0;
+    border-radius: 10px;
     position: relative;
-    border-radius: 25px;
-    img{
+
+
+    img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         border-radius: 25px;
     }
-    h3{
+
+    h3 {
         position: absolute;
         color: white;
         font-size: 2rem;
-        background-color: black;
+        background-color: #00000042; // effet transparent mais opaque 
         margin: 0;
+        padding-top: 10px;
+        padding-left: 15px;
+        box-sizing: border-box;
         height: 20%;
         width: 100%;
-        border-radius:  0  25px ;
+        border-radius: 0 0 25px 25px;
         bottom: 0;
         left: 0;
     }

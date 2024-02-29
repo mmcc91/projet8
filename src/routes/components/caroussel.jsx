@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import arrowLeft from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/assets/images/arrow_back_ios-24px 1.png";
 import arrowRight from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/assets/images/arrow_forward_ios-24px 1.png";
 import locations from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/data/donneeslocations.json";
+import "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/Sass/caroussel.scss";
 
 function Caroussel({ id }) {
   const [imageNumber, setImageNumber] = useState(0);
@@ -20,14 +21,17 @@ function Caroussel({ id }) {
 
   return (
     <div>
-      <img src={locationPhotos[imageNumber]}></img>
-      <p>{tagline}</p>
-      <button onClick={slideLeft}>
-        <img src={arrowLeft} alt="Left" />
-      </button>
-      <button onClick={slideRight}>
-        <img src={arrowRight} alt="Right" />
-      </button>
+      <div className="caroussel">
+
+        <img className="arrowLeft" src={arrowLeft} alt="Left" onClick={slideLeft} />
+
+        <img className="slider" src={locationPhotos[imageNumber]} alt="{tagline}"></img>
+
+        <img className="arrowRight" src={arrowRight} alt="Right" onClick={slideRight} />
+      </div>
+
+  
+      
     </div>
   );
 }

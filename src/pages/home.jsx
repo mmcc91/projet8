@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from "../routes/components/Header.jsx";
+import Header from "/Users/maudcurticlement/projetopenclassroom/OpenClassroom/projet 8/src/routes/components/Header.jsx";
 import Footer from '../routes/components/Footer.jsx';
 import Banner from '../routes/components/banner.jsx';
 import "../main.scss";
@@ -13,7 +13,7 @@ const HomeComponent = () => {
     <div className='Home'>
         <Header />
         <Banner />
-        <p> Welcome Home!</p>
+        <p> Welcome Home! </p>
         <div className='gallery '>
         <Thumb DonneesLocations={DonneesLocations}/>
         </div>
