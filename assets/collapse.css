@@ -2,16 +2,25 @@
   background-color: rgba(246, 246, 246, 0.4509803922);
   max-width: 1100px;
   border-radius: 11px;
-  margin: 0 auto;
+  margin: 0;
   font-size: inherit;
+  flex-direction: row;
+}
+@media screen and (max-width: 568px) {
+  .collapse {
+    flex: column, space-between, center;
+  }
 }
 .collapse .collapse_titre {
-  flex: row, space-between, center;
   background-color: #FF6060;
   color: white;
   border-radius: 10px;
   padding: 10px 15px;
   cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .collapse .collapse_titre .fleche {
   transition: all 0.2s ease-in-out;

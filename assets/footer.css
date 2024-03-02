@@ -1,7 +1,15 @@
-.footer {
+footer {
   display: flex;
+  flex-direction: column;
   background: black;
+  align-items: center;
+  padding: 45px 0px 15px 0px;
 }
-.footer .h3 {
+footer img {
+  width: 122px;
+  height: 39.44px;
+}
+footer h3 {
+  flex-wrap: wrap;
   color: #FFF;
 }/*# sourceMappingURL=footer.css.map */

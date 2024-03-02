@@ -1,7 +1,16 @@
-.footer{
+footer{
     display: flex;
+    flex-direction: column;
     background:black;
-
-.h3{
+    align-items: center;
+    padding: 45px 0px 15px 0px ;
+img{
+    width:
+    122px;
+    height:
+    39.44px;
+}
+h3{
+ flex-wrap: wrap;
     color: #FFF;
 }}

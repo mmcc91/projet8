@@ -1,9 +1,5 @@
 import PropTypes from "prop-types";
-
-
-
 import React from "react";
-import location from "../../data/data.json";
 import redStarImg from "../../assets/images/redStar.png";
 import greyStarImg from "../../assets/images/greyStar.png";
 

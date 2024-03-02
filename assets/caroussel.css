@@ -1,12 +1,9 @@
 .caroussel {
-  flex-direction: row;
+  text-align: center;
+  align-items: center;
   position: relative;
-  width: 95%;
-  border-radius: 25px;
   overflow: hidden;
   margin: 43px auto;
-  background-position: center;
-  background-size: cover;
 }
 
 .arrowLeft {
@@ -20,6 +17,11 @@
 
 .slider {
   width: 95%;
+  border-radius: 50px;
+  max-width: 1240px;
+  max-height: 425px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .arrowRight {
