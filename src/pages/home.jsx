@@ -1,25 +1,23 @@
-import React from 'react';
+import React from "react";
 import Header from "../components/header/Header.jsx";
 import Footer from "../components/footer/Footer.jsx";
-import Banner from '../components/banner/Banner.jsx';
+import Banner from "../components/banner/Banner.jsx";
 import "../main.scss";
-import Thumb from '../components/thumb/Thumb.jsx';
-import DonneesLocations from "../data/data.json"
+import Thumb from "../components/thumb/Thumb.jsx";
+import data from "../data/data.json";
 
-
-
-const HomeComponent = () => {
+const home = () => {
   return (
-    <div className='Home'>
-        <Header />
-        <Banner />
-        <p> Welcome Home! </p>
-        <div className='gallery '>
-        <Thumb DonneesLocations={DonneesLocations}/>
-        </div>
-  <Footer/>
+    <div className="Home">
+      <Header />
+      <Banner />
+      <p> Welcome Home! </p>
+      <div className="gallery ">
+        <Thumb data={data} />
+      </div>
+      <Footer />
     </div>
   );
 };
 
-export default HomeComponent;
+export default home;

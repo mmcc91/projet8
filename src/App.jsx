@@ -10,7 +10,7 @@ import ErrorPage from "./pages/error-page";
 import {
   createBrowserRouter,
 } from "react-router-dom";
-import Home from "./pages/home"
+import home from "./pages/home"
 import Apropos from "./pages/apropos"
 import Location from "./pages/location"
 
@@ -19,8 +19,6 @@ const App = () => {
     <div className='Header'>
       <Header />
       <RouterProvider router={router} />
-      texte a saisir
-    
   <Footer/>
     </div>
   );
