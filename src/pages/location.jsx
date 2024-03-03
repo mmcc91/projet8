@@ -20,16 +20,16 @@ const Location = () => {
       <Header />
       <Caroussel id={id} />
       <div className="container_up">
-
         <div className="left-up">
           <div className="detail_titre">
             <h1> {location.title} </h1>
             <p> {location.location}</p>
           </div>
-          <div className="tags"  >
-            <p>{location.tags}</p>
+          <div className="tags">
+            {location.tags.map((tag) => {
+              return <div className="tag">{tag}</div>;
+            })}
           </div>
-          
         </div>
 
         <div className="right-down">

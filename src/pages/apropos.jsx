@@ -1,22 +1,20 @@
-import React from 'react';
+import React from "react";
 import Header from "../components/header/Header.jsx";
 import Footer from "../components/footer/Footer.jsx";
-import BannerApropos from '../components/banner/BannerApropos.jsx';
-import "../data/dataApropos.json"
-
+import BannerApropos from "../components/banner/BannerApropos.jsx";
+import services from "../data/dataApropos.json";
+import Collapse from "../components/collapse/Collapse.jsx";
 
 const AproposComponent = () => {
   return (
-    <div className='Header'>
-         <Header />
-         <BannerApropos/>
-         <p>Do something here!</p>
-         <Collapse title="Fiabilité" info={location.fiabilite} />
-         <Collapse title="Respect" info={location.respect}  />
-         <Collapse title="Service" info={location.service} />
-         <Collapse title="Sécurité" info={location.securite}  />
-  <Footer/>
-        
+    <div className="Header">
+      <Header />
+      <BannerApropos />
+      {services.map((service) => {
+        return <Collapse title={service.title} info={service.text} />;
+      })}
+
+      <Footer />
     </div>
   );
 };

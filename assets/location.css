@@ -71,9 +71,29 @@
   font-weight: 500;
   margin: 10px 0 5px;
 }
-.left-up p {
-  font-size: 25px;
-}
 .left-up .tags {
+  font-size: 25px;
+  color: white;
+  gap: 50px;
+}
+.left-up .tags .tag {
+  margin: 10px;
+}
+
+.left-down {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.left-down .detail_description {
   color: #ff6060;
+  font-size: 20px;
+  font-weight: 500;
+}
+.left-down .detail_text {
+  color: #ff6060;
+  font-size: 20px;
+  font-weight: 500;
 }/*# sourceMappingURL=location.css.map */
