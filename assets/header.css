@@ -9,27 +9,36 @@ header {
   padding-top: 15px;
   padding-bottom: 20px;
 }
-
-.navigation ul {
+@media screen and (max-width: 768px) {
+  header img {
+    width: 145px;
+    height: 46.88px;
+  }
+}
+header .navigation ul {
   display: flex;
   justify-content: space-between;
+  width: -moz-fit-content;
+  width: fit-content;
   align-items: center;
   padding: 0;
 }
-.navigation ul a {
+header .navigation ul a {
   text-decoration: none;
   list-style: none;
   color: black;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: bold;
   margin-left: 50px;
-  cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 20px;
   text-transform: uppercase;
   margin-left: 20px;
 }
-.navigation ul.souligne {
-  text-decoration-line: underline;
-  border-bottom: 2px solid blue;
+@media screen and (max-width: 768px) {
+  header .navigation ul a {
+    font-size: 10px;
+  }
+}
+header .navigation ul .souligne {
+  border-bottom: 2px solid black;
 }/*# sourceMappingURL=header.css.map */

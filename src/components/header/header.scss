@@ -1,42 +1,47 @@
 header {
-    display: flex;
-    margin: 0 auto;
-    max-width: 1240px;
-    flex-direction: row;
-    width: 95%;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-top: 15px;
-    padding-bottom: 20px;
-  
+  display: flex;
+  margin: 0 auto;
+  max-width: 1240px;
+  flex-direction: row;
+  width: 95%;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 15px;
+  padding-bottom: 20px;
+
+  img {
+    @media screen and (max-width: 768px) {
+      width: 145px;
+      height: 46.88px;
+    }
   }
-  
+
   .navigation {
     ul {
       display: flex;
       justify-content: space-between;
+  width:fit-content;
       align-items: center;
       padding: 0;
-  
-  
+
+
       a {
         text-decoration: none;
         list-style: none;
         color: black;
         font-family: Montserrat;
-  
         font-style: normal;
-        font-weight: bold;
         margin-left: 50px;
-        cursor: pointer;
-        font-size: 0.8rem;
+        font-size: 20px;
         text-transform: uppercase;
         margin-left: 20px;
+        @media screen and (max-width: 768px) {
+         font-size: 10px;
+        }
       }
-  
-      &.souligne {
-        text-decoration-line: underline;
-        border-bottom: 2px solid blue;
+
+      .souligne {
+        border-bottom: 2px solid black;
       }
     }
-  }
+  }}
