@@ -67,7 +67,6 @@
 .left-up .tags {
   color: white;
   gap: 10px;
-  font-size: 25px;
   display: flex;
   flex-direction: row;
 }
@@ -81,14 +80,11 @@
   padding: 1%;
   justify-content: center;
   align-items: center;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
   background: #ff6060;
   color: #fff;
   border-radius: 10px;
-  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
 }
 @media screen and (max-width: 650px) {
   .left-up .tags .tag {
@@ -105,11 +101,17 @@
 .collapse_container {
   display: flex;
   flex-direction: row;
+  font-size: 18px;
+  font-weight: 700;
   gap: 20px;
+  flex-basis: 50%;
 }
 @media screen and (max-width: 768px) {
   .collapse_container {
     flex-direction: column;
     width: 95%;
   }
+}
+.collapse_container .Collapse {
+  width: 50%;
 }/*# sourceMappingURL=location.css.map */

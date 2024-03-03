@@ -3,15 +3,19 @@ import "./banner.scss"
 const Banner = () => {
     return (
       <div className="banner">
-        <div className="opacity">
+
+        <div className="bannerImageContainer">
             <img src={img} alt="Falaises" className="bannerImage" /> 
+            <div className="siblingOpacity"></div>
              </div>
+             
           <h1>Chez vous,
           partout et ailleurs
           </h1>
+
+        </div>
         
-        
-      </div>
+      
     );
   };
   

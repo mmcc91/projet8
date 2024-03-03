@@ -1,6 +1,5 @@
 .location {
     max-width: 1204px;
-
     object-fit: cover;
 
 }
@@ -84,26 +83,25 @@
     .tags {
         color: white;
         gap: 10px;
-        font-size: 25px;
+
         display: flex;
         flex-direction: row;
+
         @media screen and (max-width: 650px) {
-           flex-wrap: wrap;
+            flex-wrap: wrap;
 
         }
 
         .tag {
             margin: 1%;
             padding: 1%;
-
             justify-content: center;
             align-items: center;
-            width: fit-content;
-            height: fit-content;
             background: #ff6060;
             color: #fff;
             border-radius: 10px;
-            text-align: center;
+            font-size: 14px;
+            font-weight: 700;
 
             @media screen and (max-width: 650px) {
                 justify-content: center;
@@ -123,10 +121,16 @@
 .collapse_container {
     display: flex;
     flex-direction: row;
+    font-size: 18px;
+    font-weight: 700;
     gap: 20px;
+    flex-basis: 50%;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
         width: 95%;
     }
+.Collapse{
+    width: 50%;
+}
 }

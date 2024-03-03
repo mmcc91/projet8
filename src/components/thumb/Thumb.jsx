@@ -6,7 +6,11 @@ const Thumb = ({ data }) => {
   return data.map((data) => (
     <Link to ={`/location/${data.id}`} className="thumb"  key={data.id}>
       <img src={data.cover} alt={data.title} />
+
+    
       <h3> {data.title}</h3>
+    
+   
     </Link>
   ));
 };

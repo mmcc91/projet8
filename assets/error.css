@@ -1,4 +1,21 @@
-h1 {
-  color: red;
-  font-size: 100px;
+.error-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #ff6060;
+  background-color: #f4f4f4;
+}
+.error-container h1 {
+  font-size: 140px;
+  font-weight: bolder;
+}
+.error-container h4 {
+  font-size: larger;
+  font-weight: 200;
+}
+.error-container p {
+  color: black;
 }/*# sourceMappingURL=error.css.map */
