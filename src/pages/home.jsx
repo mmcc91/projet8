@@ -11,7 +11,6 @@ const home = () => {
     <div className="Home">
       <Header />
       <Banner />
-      <p> Welcome Home! </p>
       <div className="gallery ">
         <Thumb data={data} />
       </div>

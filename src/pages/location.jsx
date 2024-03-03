@@ -27,13 +27,14 @@ const Location = () => {
           </div>
           <div className="tags">
             {location.tags.map((tag) => {
-              return <div className="tag">{tag}</div>;
+              return <div key={tag} className="tag">{tag}</div>;
             })}
           </div>
         </div>
 
         <div className="right-down">
           <div className="detail_host">
+            
             <img className="detail_host_img" src={location.host.picture} alt={location.title} />
             <p>{location.host.name}</p>
           </div>
