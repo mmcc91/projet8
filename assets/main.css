@@ -1,3 +1,8 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+
 header {
   display: flex;
   margin: 0 auto;
@@ -50,6 +55,7 @@ footer {
   align-items: center;
   padding: 45px 0px 15px 0px;
   bottom: 0;
+  width: 100%;
 }
 footer img {
   width: 122px;
@@ -163,4 +169,5 @@ footer h3 {
 
 * {
   font-family: Montserrat;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */

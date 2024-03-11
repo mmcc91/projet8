@@ -119,20 +119,21 @@ margin: 0;
 }
 
 
-
 .collapse_container {
     display: flex;
-    flex-direction: row;
-    font-size: 18px;
-    font-weight: 700;
-    gap: 50px;
-  
+    justify-content: space-between; 
+   
+       
+     .collapse{
+
+        width: 50%;
+      
+     }
+      
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
         width: 95%;
     }
-.Collapse{
-    width: 50%;
-}
+
 }

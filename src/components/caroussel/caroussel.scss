@@ -6,13 +6,14 @@
   margin: 43px auto;
   
   .arrowLeft {
-    position: fixed;
+    position: absolute;
     font-size: 25px;
-    bottom: 50%;
-    height: 10%;
+    bottom: 30%;
+    
     left: 0;
     padding-left: 5%;
     cursor: pointer;
+    
 }
 
 .slider {
@@ -24,10 +25,10 @@
 }
 
 .arrowRight {
-  position: fixed;
+  position: absolute;
   font-size: 25px;
-  bottom: 50%;
-  height: 10%;
+bottom: 30%;
+
   right: 0;
   padding-right: 5%;
   cursor: pointer;
