@@ -1,14 +1,11 @@
 .collapse {
   background-color: rgba(246, 246, 246, 0.4509803922);
-  flex-basis: 50%;
-  max-width: 100%;
+  display: flex;
+  flex-direction: column;
   border-radius: 11px;
-  margin: auto;
   font-size: inherit;
-  flex-direction: row;
   max-width: 1204px;
   align-items: center;
-  justify-content: center;
 }
 @media screen and (max-width: 568px) {
   .collapse {
@@ -18,6 +15,7 @@
   }
 }
 .collapse .collapse_titre {
+  width: 100%;
   background-color: #FF6060;
   color: white;
   border-radius: 10px;
@@ -28,9 +26,6 @@
   justify-content: space-between;
   align-items: center;
 }
-.collapse .collapse_titre .fleche {
-  transition: all 0.2s ease-in-out;
-}
 .collapse .collapse_bascule {
   display: flex;
   flex-direction: column;
@@ -40,10 +35,12 @@
   padding: 10px;
   font-size: clamp(12px, 1.8vw, 18px);
   color: black;
-  transition: visibility 0.5s ease-in-out, opacity 0.5s ease-in-out, height 0.2s ease-in-out;
 }
 .collapse .collapse_nonbascule {
   visibility: hidden;
   opacity: 0;
   height: 0;
+}
+.collapse .collapse_nonbascule .fleche {
+  transition: all 1s ease-in-out;
 }/*# sourceMappingURL=collapse.css.map */

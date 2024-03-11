@@ -5,6 +5,8 @@ footer {
   background: black;
   align-items: center;
   padding: 45px 0px 15px 0px;
+  bottom: 0;
+  width: 100%;
 }
 footer img {
   width: 122px;

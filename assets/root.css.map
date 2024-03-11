@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"root.css"}
+{"version":3,"sources":["../src/routes/root.scss","root.css"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,uBAAA;ACCJ","file":"root.css"}

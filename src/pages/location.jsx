@@ -50,7 +50,9 @@ const Location = () => {
 
       <Footer />
     </div>
+    
   );
+  
 };
 
 export default Location;

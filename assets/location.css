@@ -5,6 +5,7 @@
 }
 
 .container_up {
+  max-width: 1204px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -26,6 +27,7 @@
   .right-down {
     flex-direction: row-reverse;
     justify-content: space-between;
+    gap: 0;
   }
 }
 .right-down .detail_host {
@@ -95,6 +97,7 @@
     height: -moz-fit-content;
     height: fit-content;
     gap: 0;
+    margin: 0;
   }
 }
 
@@ -103,8 +106,7 @@
   flex-direction: row;
   font-size: 18px;
   font-weight: 700;
-  gap: 20px;
-  flex-basis: 50%;
+  gap: 50px;
 }
 @media screen and (max-width: 768px) {
   .collapse_container {

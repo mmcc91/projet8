@@ -6,6 +6,7 @@
 
 
 .container_up {
+    max-width: 1204px;
     display: flex;
 
     justify-content: space-between;
@@ -27,6 +28,7 @@
     @media screen and (max-width: 650px) {
         flex-direction: row-reverse;
         justify-content: space-between;
+        gap : 0;
 
     }
 
@@ -109,7 +111,7 @@
                 width: fit-content;
                 height: fit-content;
                 gap: 0;
-
+margin: 0;
             }
         }
 
@@ -123,8 +125,8 @@
     flex-direction: row;
     font-size: 18px;
     font-weight: 700;
-    gap: 20px;
-    flex-basis: 50%;
+    gap: 50px;
+  
 
     @media screen and (max-width: 768px) {
         flex-direction: column;

@@ -24,7 +24,7 @@ function Caroussel({ id }) {
       <div className="caroussel">
 
         <img className="arrowLeft" src={arrowLeft} alt="Left" onClick={slideLeft} />
-
+        <span className="imageCounter">{imageNumber + 1} / {locationPhotos.length}</span> 
         <img className="slider" src={locationPhotos[imageNumber]} alt="{tagline}"></img>
 
         <img className="arrowRight" src={arrowRight} alt="Right" onClick={slideRight} />

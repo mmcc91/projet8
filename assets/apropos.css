@@ -1,0 +1,15 @@
+.container-collapse-apropos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+
+.apropos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}/*# sourceMappingURL=apropos.css.map */

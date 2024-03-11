@@ -5,16 +5,14 @@
   overflow: hidden;
   margin: 43px auto;
   
-  
-}
-
-.arrowLeft {
-  position: absolute;
-  top: 50%;
-  height: 10%;
-  left: 0;
-  padding-left: 5%;
-  cursor: pointer;
+  .arrowLeft {
+    position: fixed;
+    font-size: 25px;
+    bottom: 50%;
+    height: 10%;
+    left: 0;
+    padding-left: 5%;
+    cursor: pointer;
 }
 
 .slider {
@@ -26,10 +24,20 @@
 }
 
 .arrowRight {
-  position: absolute;
-  top: 50%;
+  position: fixed;
+  font-size: 25px;
+  bottom: 50%;
   height: 10%;
   right: 0;
   padding-right: 5%;
   cursor: pointer;
 }
+.imageCounter{
+  right: 50%;
+  font-weight: 600;
+  position: absolute;
+  bottom: 5%;
+  color: white;
+}
+}
+

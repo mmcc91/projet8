@@ -7,10 +7,10 @@ const Navigation = () => {
     return (
       <div className="navigation">
         <ul>
-          <NavLink to ="/Accueil" className={({isActive}) => (isActive ? "souligne" : "")}>
+          <NavLink to ="/Accueil" className={({isActive}) => (isActive ? "underline" : "")}>
             <li>Accueil</li>
           </NavLink>
-          <NavLink to ="/Apropos" className={({isActive}) => (isActive ? "souligne" : "")} >
+          <NavLink to ="/Apropos" className={({isActive}) => (isActive ? "underline" : "")} >
             <li>A propos</li>
           </NavLink>
         </ul>
