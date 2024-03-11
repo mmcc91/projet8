@@ -10,7 +10,8 @@ const Collapse = ({ title, info }) => {
     <div className="collapse">
       <h3 className="collapse_titre" onClick={() => setToggle(!toggle)}>
         {title}
-        <img src={toggle ? flecheUp : flecheBas} alt="fleche " className={`fleche ${toggle ? "fleche_nonbascule" : ""}`} />
+        <img src={toggle ? flecheUp : flecheBas} alt="fleche " 
+        className={`fleche ${toggle ? "fleche_nonbascule" : ""}`} />
       </h3>
       <div className={toggle ? "collapse_bascule" : "collapse_nonbascule"}>
         {Array.isArray(info) ? (

@@ -17,44 +17,44 @@ const Location = () => {
   const location = findLocationID(id);
   return (
     <div>
-    <div className="location">
-      <Header />
-      <Caroussel id={id} />
-      <div className="container_up">
-        <div className="left-up">
-          <div className="detail_titre">
-            <h1> {location.title} </h1>
-            <p> {location.location}</p>
+      <div className="location">
+        <Header />
+        <Caroussel id={id} />
+        <div className="container_up">
+          <div className="left-up">
+            <div className="detail_titre">
+              <h1> {location.title} </h1>
+              <p> {location.location}</p>
+            </div>
+            <div className="tags">
+              {location.tags.map((tag) => {
+                return (
+                  <div key={tag} className="tag">
+                    {tag}
+                  </div>
+                );
+              })}
+            </div>
           </div>
-          <div className="tags">
-            {location.tags.map((tag) => {
-              return <div key={tag} className="tag">{tag}</div>;
-            })}
+
+          <div className="right-down">
+            <div className="detail_host">
+              <img className="detail_host_img" src={location.host.picture} alt={location.title} />
+              <p>{location.host.name}</p>
+            </div>
+            <div className="rating">
+              <Rating rating={location.rating} />
+            </div>
           </div>
         </div>
-
-        <div className="right-down">
-          <div className="detail_host">
-            
-            <img className="detail_host_img" src={location.host.picture} alt={location.title} />
-            <p>{location.host.name}</p>
-          </div>
-          <div className="rating">
-            <Rating rating={location.rating} />
-          </div>
+        <div className="collapse_container">
+          <Collapse title="Description" info={location.description} />
+          <Collapse title="Equipement" info={location.equipments} />
         </div>
       </div>
-      <div className="collapse_container">
-        <Collapse title="Description" info={location.description} />
-        <Collapse title="Equipement" info={location.equipments} />
-      </div>
-
-      
-    </div>
-    <Footer />
+      <Footer />
     </div>
   );
-  
 };
 
 export default Location;

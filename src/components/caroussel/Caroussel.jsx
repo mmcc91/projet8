@@ -22,16 +22,13 @@ function Caroussel({ id }) {
   return (
     <div>
       <div className="caroussel">
-
         <img className="arrowLeft" src={arrowLeft} alt="Left" onClick={slideLeft} />
-        <span className="imageCounter">{imageNumber + 1} / {locationPhotos.length}</span> 
+        <span className="imageCounter">
+          {imageNumber + 1} / {locationPhotos.length}{" "}
+        </span>
         <img className="slider" src={locationPhotos[imageNumber]} alt="{tagline}"></img>
-
         <img className="arrowRight" src={arrowRight} alt="Right" onClick={slideRight} />
       </div>
-
-  
-      
     </div>
   );
 }
