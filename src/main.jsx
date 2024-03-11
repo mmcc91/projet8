@@ -6,12 +6,12 @@ import Home from "./pages/home";
 import Apropos from "./pages/apropos";
 import Location from "./pages/location";
 import "./main.scss";
-import Root from "./routes/root";
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <Home />,
     errorElement: <ErrorPage />,
   },
   {

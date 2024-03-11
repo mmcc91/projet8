@@ -16,6 +16,7 @@ const Location = () => {
   const { id } = useParams();
   const location = findLocationID(id);
   return (
+    <div>
     <div className="location">
       <Header />
       <Caroussel id={id} />
@@ -48,9 +49,10 @@ const Location = () => {
         <Collapse title="Equipement" info={location.equipments} />
       </div>
 
-      <Footer />
+      
     </div>
-    
+    <Footer />
+    </div>
   );
   
 };

@@ -2,6 +2,7 @@
   max-width: 1204px;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: auto;
 }
 
 .container_up {
