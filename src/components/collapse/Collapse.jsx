@@ -17,7 +17,7 @@ const Collapse = ({ title, info }) => {
         {Array.isArray(info) ? (
           info.map((text, index) => (
             <span key={index} className="text">
-              {text} <br />
+              {text}
             </span>
           ))
         ) : (

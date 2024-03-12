@@ -1,11 +1,9 @@
 @charset "UTF-8";
 .collapse {
-  background-color: rgba(246, 246, 246, 0.4509803922);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
+  max-width: 1240px;
   /* Ajoutez une transition de rotation pour la flèche */
 }
 @media screen and (max-width: 568px) {
@@ -26,16 +24,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 }
 .collapse .collapse_bascule {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(246, 246, 246, 0.4509803922);
   display: flex;
   flex-direction: column;
-  gap: 5px;
   visibility: visible;
   opacity: 1;
-  padding: 10px;
   font-size: clamp(12px, 1.8vw, 18px);
   color: black;
+  transform: translateY(-20px);
+  z-index: 0;
 }
 .collapse .collapse_nonbascule {
   visibility: hidden;
@@ -50,4 +52,6 @@
 }
 .collapse .text {
   font-weight: 100;
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=collapse.css.map */
