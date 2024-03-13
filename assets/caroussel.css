@@ -15,9 +15,9 @@
 }
 .caroussel .slider {
   width: 95%;
-  border-radius: 50px;
+  border-radius: 25px;
   max-width: 1240px;
-  max-height: 425px;
+  max-height: 415px;
   -o-object-fit: cover;
      object-fit: cover;
 }

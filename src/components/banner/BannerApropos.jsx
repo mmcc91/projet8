@@ -4,6 +4,7 @@ const BannerApropos = () => {
   return (
     <div className="banner">
       <img src={img} alt="Foret" className="bannerAproposImage" />
+      <div className="siblingOpacity"></div>
     </div>
   );
 };
