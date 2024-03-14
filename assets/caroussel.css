@@ -13,6 +13,11 @@
   padding-left: 5%;
   cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+  .caroussel .arrowLeft {
+    height: 50px;
+  }
+}
 .caroussel .slider {
   width: 95%;
   border-radius: 25px;
@@ -28,6 +33,11 @@
   right: 0;
   padding-right: 5%;
   cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .caroussel .arrowRight {
+    height: 50px;
+  }
 }
 .caroussel .imageCounter {
   right: 50%;

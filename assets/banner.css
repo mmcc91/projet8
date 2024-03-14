@@ -29,6 +29,11 @@
   font-size: 48px;
   font-weight: 300;
 }
+@media screen and (max-width: 768px) {
+  .banner h1 {
+    font-size: 24px;
+  }
+}
 .banner .bannerImageContainer {
   height: 150px;
   width: 100%;

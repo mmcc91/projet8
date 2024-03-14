@@ -2,18 +2,20 @@
 .collapse {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   max-width: 1240px;
   /* Ajoutez une transition de rotation pour la flèche */
 }
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 768px) {
   .collapse {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    max-width: 650px;
+    min-width: 96%;
   }
 }
 .collapse .collapse_titre {
+  height: 42px;
   width: 100%;
   background-color: #FF6060;
   color: white;
@@ -34,7 +36,6 @@
   flex-direction: column;
   visibility: visible;
   opacity: 1;
-  font-size: clamp(12px, 1.8vw, 18px);
   color: black;
   transform: translateY(-20px);
   z-index: 0;

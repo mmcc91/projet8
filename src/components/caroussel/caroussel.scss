@@ -4,41 +4,46 @@
   position: relative;
   overflow: hidden;
   margin: 43px auto;
-  
+
   .arrowLeft {
     position: absolute;
     font-size: 25px;
     bottom: 30%;
-    
     left: 0;
     padding-left: 5%;
+
     cursor: pointer;
-    
-}
 
-.slider {
-  width: 95%;
-  border-radius: 25px;
-  max-width: 1240px;
-  max-height: 415px;
-  object-fit: cover;
-}
+    @media screen and (max-width:768px) {
+      height: 50px;
+    }
+  }
 
-.arrowRight {
-  position: absolute;
-  font-size: 25px;
-bottom: 30%;
+  .slider {
+    width: 95%;
+    border-radius: 25px;
+    max-width: 1240px;
+    max-height: 415px;
+    object-fit: cover;
+  }
 
-  right: 0;
-  padding-right: 5%;
-  cursor: pointer;
-}
-.imageCounter{
-  right: 50%;
-  font-weight: 600;
-  position: absolute;
-  bottom: 5%;
-  color: white;
-}
-}
+  .arrowRight {
+    position: absolute;
+    font-size: 25px;
+    bottom: 30%;
+    right: 0;
+    padding-right: 5%;
+    cursor: pointer;
+    @media screen and (max-width:768px) {
+      height: 50px;
+      }
+  }
 
+  .imageCounter {
+    right: 50%;
+    font-weight: 600;
+    position: absolute;
+    bottom: 5%;
+    color: white;
+  }
+}

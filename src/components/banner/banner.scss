@@ -32,7 +32,11 @@
 
         font-size: 48px;
         font-weight: 300;
+        @media screen and (max-width:768px) {
+     
+            font-size: 24px;
 
+           }
     }
 
     .bannerImageContainer {

@@ -1,7 +1,7 @@
 .location {
     max-width: 1204px;
     object-fit: cover;
-margin: auto;
+    margin: auto;
 }
 
 
@@ -28,7 +28,8 @@ margin: auto;
     @media screen and (max-width: 650px) {
         flex-direction: row-reverse;
         justify-content: space-between;
-        gap : 0;
+        gap: 0;
+        padding-top: 8%;
 
     }
 
@@ -96,7 +97,6 @@ margin: auto;
 
         .tag {
             margin: 1%;
-            padding: 1%;
             justify-content: center;
             align-items: center;
             background: #ff6060;
@@ -104,6 +104,7 @@ margin: auto;
             border-radius: 10px;
             font-size: 14px;
             font-weight: 700;
+            padding: 3px 30px;
 
             @media screen and (max-width: 650px) {
                 justify-content: center;
@@ -111,7 +112,7 @@ margin: auto;
                 width: fit-content;
                 height: fit-content;
                 gap: 0;
-margin: 0;
+                margin: 0;
             }
         }
 
@@ -120,27 +121,28 @@ margin: 0;
 
 
 .collapse_container {
-  
+
     display: flex;
     justify-content: space-between;
 
-     .collapse{
+    .collapse {
         display: flex;
-       
-    
+
+
         width: 100%;
         max-width: 45%;
-        padding:0 ;
+        padding: 0;
 
         border-radius: 10px;
         box-sizing: border-box;
         margin: 20px 0;
+
         @media screen and (max-width: 650px) {
             width: 100%;
             padding: 10px;
             gap: 10px;
         }
-       
+
         .collapse_title {
             top: 0%;
             display: flex;
@@ -148,21 +150,23 @@ margin: 0;
             justify-content: space-between;
             align-items: center;
             gap: 10px;
+
             h2 {
                 font-size: 24px;
                 font-weight: 500;
                 color: #ff6060;
             }
+
             .collapse_icon {
                 cursor: pointer;
                 width: 24px;
                 height: 24px;
             }
         }
- 
-      
-     }
-      
+
+
+    }
+
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
