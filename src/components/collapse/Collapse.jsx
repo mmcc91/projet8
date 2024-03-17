@@ -13,10 +13,10 @@ const Collapse = ({ title, info }) => {
         <img src={toggle ? flecheUp : flecheBas} alt="fleche " 
         className={`fleche ${toggle ? "fleche_nonbascule" : ""}`} />
       </h3>
-      <div className={toggle ? "collapse_bascule" : "collapse_nonbascule"}>
+      <div className={toggle ? "collapse_bascule " : "collapse_nonbascule"}>
         {Array.isArray(info) ? (
           info.map((text, index) => (
-            <span key={index} className="text">
+            <span key={index} className="text ">
               {text}
             </span>
           ))

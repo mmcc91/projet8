@@ -38,6 +38,7 @@
   opacity: 1;
   color: black;
   transform: translateY(-20px);
+  transition: linear 1s;
   z-index: 0;
 }
 .collapse .collapse_nonbascule {
